@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Cardapio - Água na boca</h1>
+
+    <form method="post" action="Comprovante.php">
+        <table>
+                <tr>
+                    <th>Lanches</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="XBurguer" >X-Burguer</td>
+                    <td>
+                        <select name="Quantidade1">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                    <td>R$ 8,50</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="XSalada" >X-Salada</td>
+                    <td>
+                        <select name="Quantidade2">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                    <td>R$ 7,60</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="Xtudo" >X-tudo</td>
+                    <td>
+                        <select name="Quantidade3">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                    <td>R$ 10,50</td>
+                </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Bebidas</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Coca" >Coca-Cola</td>
+                <td>
+                    <select name="Quantidade1">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>R$ 9,60</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Conquista" >Conquista</td>
+                <td>
+                    <select name="Quantidade1">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>R$ 7,50</td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="Fanta" >Fanta</td>
+                <td>
+                    <select name="Quantidade1">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>R$ 8,20</td>
+            </tr>
+    </table>
+    <br>
+    <label><strong>Observações:</strong></label>
+    <br>
+        <textarea name="obs"></textarea>
+
+    <br><br>
+    <input type="submit" value="Enviar Pedido">
+
+    </form>
+</body>
+</html>
